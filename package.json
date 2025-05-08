@@ -1,0 +1,25 @@
+{
+  "name": "@unfaehig/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config for usage with TS based on Mr.doob Three.JS code styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Unfaehig/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "unfaehig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Unfaehig/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Unfaehig/eslint-config#readme",
+  "peerDependencies": {
+		"eslint": ">= 9"
+	}
+}
