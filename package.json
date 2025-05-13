@@ -2,7 +2,9 @@
   "name": "@unfaehig/eslint-config",
   "version": "1.0.0",
   "description": "eslint config for usage with TS based on Mr.doob Three.JS code styles",
-  "main": "index.js",
+  "type": "module",
+  "main": "eslint.config.mjs",
+  "types": "eslint-typegen.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +22,17 @@
   },
   "homepage": "https://github.com/Unfaehig/eslint-config#readme",
   "peerDependencies": {
-		"eslint": ">= 9"
-	}
+    "eslint": ">= 9"
+  },
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
+  "dependencies": {
+    "eslint-typegen": "^2.2.0"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.26.0",
+    "typescript": "^5.8.3"
+  }
 }
