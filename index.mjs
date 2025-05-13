@@ -1,24 +1,5 @@
-// @ts-check
-/// <reference path="./eslint-typegen.d.ts" />
-import stylistic from '@stylistic/eslint-plugin'
-import ts from '@typescript-eslint/eslint-plugin'
-import parser from '@typescript-eslint/parser'
-
 export default [
 	{
-		/* plugins: {
-			'@stylistic': stylistic,
-			'@typescript-eslint': ts
-		}, */
-
-		languageOptions: {
-			parser: parser
-			/* parserOptions: {
-			  projectService: true,
-			  tsconfigRootDir: import.meta.dirname,
-			  sourceType: 'module', // Allows for the use of imports
-			}, */
-		},
 		rules: {
 			// General Provisions
 			'@stylistic/linebreak-style': [ 'error', 'unix' ],
