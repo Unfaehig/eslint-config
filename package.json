@@ -1,6 +1,6 @@
 {
   "name": "@unfaehig/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "eslint config for usage with TS based on Mr.doob Three.JS code styles",
   "type": "module",
   "main": "./index.mjs",

@@ -100,7 +100,7 @@ export default [
 				named: 'never',
 				asyncArrow: 'ignore'
 			} ],
-			'@stylistic/func-call-spacing': [ 'error', 'never' ],
+			'@stylistic/function-call-spacing': [ 'error', 'never' ],
 
 			// Operations
 			'@stylistic/space-infix-ops': [ 'error' ],
